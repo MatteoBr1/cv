@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Type</title>
+</head>
+<body>
+    <form action="mailto:matteo29.b@gmail.com" method="POST" enctype="text/plain">
+        <p><label>Nome</label></p>
+        <input type="text" name="Nome"><br>
+        <p><label>Cognome</label></p>
+        <input type="text" name="Cognome"><br>
+        <p><label>Sesso</label></p>
+        <input type="radio" name="Sesso">Maschio
+        <input type="radio" name="Sesso">Femmina
+        <input type="radio" name="Sesso">Indeterminato<br>
+        <p><label>Data di nascita</label></p>
+        <input type="date" name="DataNascita"><br>
+        <p><label>Carica la tua carta di identità</label></p>
+        <input type="file"><br>
+        <p><label>Sei soddifatto?</label></p>
+        <div>Si<input type="range">No</div><br>
+        <p><label>Lascia un tuo messaggio</label><br>
+        <textarea name="Messaggio"rows="10" cols="40" maxlength="500" placeholder="Inserisci qui il tuo messaggio"></textarea></p>
+        <p><input type="submit"></p>
+    </form>
+</body>
+</html>
